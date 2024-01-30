@@ -92,10 +92,64 @@ function App() {
     if (isShow) {
       return (
         <footer>
-          <Typography weight={"normal"} size="md" className="text-[#A3A3A3] p-8">
+          <div className="flex d-flex">
+            <div>
+              <Typography weight={"normal2"} size="md" className="text-[#A3A3A3] text-left ml-[99px] mt-[171px] leading-[24px]">
+                TAGLINE edspert disini
+              </Typography>
+              <Typography weight={"normal"} size="md" className="text-[#A3A3A3] text-left ml-[99px] mt-[20px] leading-[24px] w-[411px]">
+                Jl. Watugede No.58, Wonorejo, Sariharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581
+              </Typography>
+            </div>
+            <div>
+              <Typography weight={"normal2"} size="md" className="text-left ml-[149px] mt-[149px] mb-[18px] leading-[24px]">
+                Program
+              </Typography>
+              <Typography weight={"normal"} size="md" className="text-[#A3A3A3] text-left ml-[149px] mt-[20px] mb-[18px] leading-[24px] mr-[119px]">
+                Online Course
+              </Typography>
+              <Typography weight={"normal"} size="md" className="text-[#A3A3A3] text-left ml-[149px] mt-[20px] mb-[18px] leading-[24px] mr-[119px]">
+                Mini Bootcamp
+              </Typography>
+              <Typography weight={"normal"} size="md" className="text-[#A3A3A3] text-left ml-[149px] mt-[20px] mb-[161px] leading-[24px] mr-[119px]">
+                Bootcamp
+              </Typography>
+            </div>
+            <div>
+              <Typography weight={"normal2"} size="md" className="text-left mt-[149px] mb-[18px] leading-[24px]">
+                Bidang Ilmu
+              </Typography>
+              <Typography weight={"normal"} size="md" className="text-[#A3A3A3] text-left mt-[20px] mb-[18px] leading-[24px] mr-[119px]">
+                Digital marketing
+              </Typography>
+              <Typography weight={"normal"} size="md" className="text-[#A3A3A3] text-left mt-[20px] mb-[18px] leading-[24px] mr-[119px]">
+                Product management
+              </Typography>
+              <Typography weight={"normal"} size="md" className="text-[#A3A3A3] text-left mt-[20px] mb-[18pxpx] leading-[24px] mr-[119px]">
+                English
+              </Typography>
+              <Typography weight={"normal"} size="md" className="text-[#A3A3A3] text-left mt-[20px] mb-[161px] leading-[24px] mr-[119px]">
+                Programming
+              </Typography>
+            </div>
+            <div>
+              <Typography weight={"normal2"} size="md" className="text-left mt-[149px] mb-[18px] leading-[24px]">
+                Tentang Edspert
+              </Typography>
+              <Typography weight={"normal"} size="md" className="text-[#A3A3A3] text-left mt-[20px] mb-[18px] leading-[24px]">
+                Bantuan
+              </Typography>
+              <Typography weight={"normal"} size="md" className="text-[#A3A3A3] text-left mt-[20px] mb-[18px] leading-[24px]">
+                Kontak kami
+              </Typography>
+              <Typography weight={"normal"} size="md" className="text-[#A3A3A3] text-left mt-[20px] mb-[161px] leading-[24px]">
+                Media Sosial
+              </Typography>
+            </div>
+          </div>
+          <Typography weight={"normal2"} size="md" className="text-[#A3A3A3] ml-[657px]">
             Copyright edspert. Romeo Mulia Pratama.
           </Typography>
-          <Typography>Jl. Watugede No.58, Wonorejo, Sariharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</Typography>
         </footer>
       );
     }
